@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(220, 228, 245);
+    font-size: 25px;
+    text-align: center;
+    font-family: ;
+}
+
+.box {
+
+    display: flex;
+}
+
+.move {
+    background-color: white;
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+
+}
