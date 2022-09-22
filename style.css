@@ -1,20 +1,25 @@
+h1 {
+    font-size: 50px;
+}
+
 body {
     background-color: rgb(220, 228, 245);
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     font-family: ;
 }
 
 .box {
-
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 500px;
+
 }
 
 .move {
     background-color: white;
-    padding: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
     border-radius: 10px;
-
+    width: 30%;
+    height: 100px;
 }
