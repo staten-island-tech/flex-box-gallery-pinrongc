@@ -1,0 +1,47 @@
+html,
+body,
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+body {
+    background-image: ;
+
+    background-color: rgb(220, 228, 245);
+    font-size: 120px;
+    text-align: center;
+    font-family: ;
+
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 500px;
+    margin: 0 5%;
+
+}
+
+.move {
+    background-color: white;
+    border-radius: 10px;
+    min-width: 30%;
+    max-width: 100%;
+    width: 100px;
+    height: 500px;
+    margin: 1%;
+}
+
+img {
+    width: 200px;
+
+}
