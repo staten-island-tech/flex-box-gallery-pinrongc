@@ -5,27 +5,24 @@ body,
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%;
-
+    font-family: 'Aref Ruqaa Ink', serif;
 }
 
 h1 {
     font-size: 50px;
-   color: white;
-
-    
+    color: white;
 }
 
-body {
+@media body {
     background-image: url(https://wallpapercave.com/wp/p4iaEa4.jpg);
     background-color: rgb(220, 228, 245);
     font-size: 110px;
     text-align: center;
-    font-family: ;
-
+    padding-bottom: 50px;
 }
 
-p { 
-    font-size: small
+p {
+    font-size: 15px
 }
 
 .box {
@@ -34,7 +31,6 @@ p {
     justify-content: space-around;
     height: 500px;
     margin: 0 5%;
-
 
 }
 
@@ -46,10 +42,10 @@ p {
     width: 100px;
     height: 520px;
     margin: 1%;
-    border-style: solid;
+    border-style: ;
+    box-shadow: 0px 0px 20px white;
 }
 
 img {
     width: 200px;
-
 }
