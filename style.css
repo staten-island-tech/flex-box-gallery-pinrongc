@@ -30,7 +30,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 500px;
+    height: 100px;
     margin: 0 5%;
 
 }
@@ -45,17 +45,18 @@ p {
     margin: 1%;
     border-style: ;
     box-shadow: 0px 0px 20px white;
+    transition: all 0.4s;
 }
 
 img {
     width: 200px;
-}
-
-#move {
     transition: all 0.4s;
 }
 
 #move:hover {
     transform: scale(1.1);
+}
 
+img:hover {
+    transform: scale(1.1);
 }
