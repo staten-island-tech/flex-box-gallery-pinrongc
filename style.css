@@ -13,7 +13,6 @@ h1 {
     color: white;
 }
 
-
 body {
     background-image: url(https://wallpapercave.com/wp/p4iaEa4.jpg);
     background-color: rgb(220, 228, 245);
@@ -32,7 +31,6 @@ p {
     justify-content: space-around;
     height: 100px;
     margin: 0 5%;
-
 }
 
 #move {
@@ -60,3 +58,20 @@ img {
 img:hover {
     transform: scale(1.1);
 }
+
+#spinny {
+    width: 100px;
+    transform: rotate(45deg);
+
+    animation: rotate 4s infinite linear;
+    animation-duration: 5s;
+    animation direction: normal;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none
+}
+
+@keyframes {
+    100% {
+        transform: rotate 360 deg
+    }
