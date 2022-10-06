@@ -11,13 +11,15 @@ body,
 h1 {
     font-size: 50px;
     color: white;
+    text-align: center;
+
 }
 
 body {
     background-image: url(https://wallpapercave.com/wp/p4iaEa4.jpg);
-    background-color: rgb(220, 228, 245);
+    background-size: cover;
+    background-attachment: fixed;
     font-size: 110px;
-    text-align: center;
     padding-bottom: 50px;
 }
 
@@ -29,11 +31,11 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 100px;
     margin: 0 5%;
 }
 
 #move {
+    text-align: center;
     background-color: white;
     border-radius: 10px;
     min-width: 30%;
@@ -61,17 +63,27 @@ img:hover {
 
 #spinny {
     width: 100px;
-    transform: rotate(45deg);
-
-    animation: rotate 4s infinite linear;
-    animation-duration: 5s;
-    animation direction: normal;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-fill-mode: none
+    animation: spinny 4s linear infinite, LtoR 9s linear infinite;
+    transition: all 4s;
+    position: relative;
 }
 
-@keyframes {
+@keyframes spinny {
     100% {
-        transform: rotate 360 deg
+        transform: rotate(360deg)
     }
+}
+
+@keyframes LtoR {
+    0% {
+        left: 0%;
+    }
+
+    100% {
+        left: calc(100% - 100px)
+    }
+}
+
+@media screen (max width: 900px) {
+    .box
+}
