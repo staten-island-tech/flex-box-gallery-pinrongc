@@ -87,3 +87,7 @@ img:hover {
 @media screen (max width: 900px) {
     .box
 }
+
+.bottom {
+    font-size: 50%;
+}
