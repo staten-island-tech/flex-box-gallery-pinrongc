@@ -32,9 +32,10 @@ p {
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 0 5%;
+
 }
 
-#move {
+.move {
     text-align: center;
     background-color: white;
     border-radius: 10px;
@@ -50,12 +51,16 @@ p {
 
 img {
     width: 200px;
-    transition: all 0.4s;
+    transition: all 5s;
 }
 
-#move:hover {
+
+.move:hover {
     transform: scale(1.1);
+    transform: scaleX(-1);
+    backface-visibility: hidden
 }
+
 
 img:hover {
     transform: scale(1.1);
@@ -96,4 +101,3 @@ img:hover {
 .bottom :hover {
     color: aqua;
 }
-
