@@ -90,4 +90,10 @@ img:hover {
 
 .bottom {
     font-size: 50%;
+    transition: color 1s;
 }
+
+.bottom :hover {
+    color: aqua;
+}
+
