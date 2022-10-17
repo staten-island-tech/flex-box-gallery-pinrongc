@@ -27,6 +27,11 @@ p {
     font-size: 15px
 }
 
+h1:hover {
+    padding-top: 21px;
+    font-family: 'Open-Sans', sans-serif;
+}
+
 .box {
     display: flex;
     flex-wrap: wrap;
@@ -49,25 +54,23 @@ p {
     transition: all 0.4s;
 }
 
+.move:hover {
+    background-color: rgb(207, 212, 224);
+}
+
+
 
 img {
     width: 200px;
-    transition: all 5s;
+    transition: all 0.4s;
 }
-
-
-.move:hover {
-    transform: scale(1.1);
-    transform: scaleX(-1);
-    backface-visibility: hidden;
-    transition: 4s ease;
-
-}
-
 
 img:hover {
-    transform: scale(1.1);
+    transform: scale(1.04);
+    box-shadow: 5px 5px 10px black;
 }
+
+.box :hover {}
 
 #spinny {
     width: 100px;
@@ -99,6 +102,7 @@ img:hover {
 .bottom {
     font-size: 50%;
     transition: color 1s;
+
 }
 
 .bottom :hover {
