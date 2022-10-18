@@ -122,6 +122,7 @@ a {
         width: 100%;
     }
 
+
     .bottom {
         text-align: center;
     }
@@ -138,5 +139,9 @@ a {
 
     .bottom {
         text-align: center;
+    }
+
+    .spinny {
+        width: 50px;
     }
 }
