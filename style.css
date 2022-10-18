@@ -69,8 +69,8 @@ img:hover {
 }
 
 
-h2:hover { 
- text-decoration: underline;
+h2:hover {
+    text-decoration: underline;
 
 }
 
@@ -98,9 +98,10 @@ h2:hover {
 }
 
 
-a { 
+a {
     color: aliceblue;
 }
+
 .bottom {
     font-size: 50%;
     transition: color 1s;
@@ -109,7 +110,3 @@ a {
 .bottom :hover {
     color: rgb(106, 239, 239);
 }
-
-
-  
-  
