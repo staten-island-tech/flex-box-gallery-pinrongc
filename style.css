@@ -19,7 +19,7 @@ body {
     background-image: url(https://wallpapercave.com/wp/p4iaEa4.jpg);
     background-size: cover;
     background-attachment: fixed;
-    font-size: 110px;
+    font-size: 100px;
     padding-bottom: 50px;
 }
 
@@ -38,6 +38,7 @@ h1:hover {
     justify-content: space-around;
     margin: 0 5%;
 
+
 }
 
 .move {
@@ -51,6 +52,7 @@ h1:hover {
     margin: 1%;
     box-shadow: 0px 0px 20px white;
     transition: all 0.4s;
+    overflow-y: auto;
 }
 
 .move:hover {
@@ -109,4 +111,32 @@ a {
 
 .bottom :hover {
     color: rgb(106, 239, 239);
+}
+
+@media screen and (max-width: 820px) {
+    .box {
+        flex-direction: column;
+    }
+
+    .move {
+        width: 100%;
+    }
+
+    .bottom {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .box {
+        flex-direction: column;
+    }
+
+    .move {
+        width: 100%;
+    }
+
+    .bottom {
+        text-align: center;
+    }
 }
