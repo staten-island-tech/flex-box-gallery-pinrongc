@@ -101,8 +101,12 @@ img:hover {
 
 .bottom {
     font-size: 50%;
+<<<<<<< Updated upstream
     transition: color 1s;
 
+=======
+    transition: color 0.5s;
+>>>>>>> Stashed changes
 }
 
 .bottom :hover {
