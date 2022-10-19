@@ -141,7 +141,11 @@ a {
         text-align: center;
     }
 
-    .spinny {
-        width: 50px;
+    #spinny {
+        width: 80px;
+    }
+
+    . h1 {
+        font-size: 40px;
     }
 }
